@@ -38,8 +38,8 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1> DEV Resources 👨🏽‍💻</h1>
-      <p style={{ fontSize: "smaller" }}>
+      <h1 style={{ color: "#7f8c8d" }}> DEV Resources 👨🏽‍💻</h1>
+      <p style={{ fontSize: "smaller", color: "#2c3e50" }}>
         {" "}
         These are my favourite resources.Just select the platform you like.{" "}
       </p>
@@ -54,8 +54,11 @@ export default function App() {
               background: "#E5E7EB",
               borderRadius: "0.5rem",
               padding: "0.5rem  1rem",
-              border: "1px solid black",
-              margin: "1rem 0.3rem"
+              border: "none",
+              outline: "none",
+              margin: "1rem 0.3rem",
+              backgroundColor: "#16a085",
+              color: "white"
             }}
           >
             {genre}
@@ -74,7 +77,10 @@ export default function App() {
                 border: "1px solid #D1D5DB",
                 width: "80%",
                 margin: "1rem 2rem",
-                borderRadius: "0.5rem"
+                borderRadius: "0.5rem",
+                backgroundColor: "#1abc9c",
+                boxShadow: "0 10px 30px rgba(0,0,0,0.07)",
+                color: "white"
               }}
             >
               {" "}
